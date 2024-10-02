@@ -23,6 +23,11 @@
     <PackageTags>LANDIS-II;Landis;Extension;Output cohort statistics</PackageTags>
     <Description>This extension will produce outputs of cohort statistics</Description>
     <PackageReleaseNotes>LANDIS-II v8 update.</PackageReleaseNotes>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\Core-Model-v8-LINUX\build\extensions</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
