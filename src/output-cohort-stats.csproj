@@ -23,6 +23,7 @@
     <PackageTags>LANDIS-II;Landis;Extension;Output cohort statistics</PackageTags>
     <Description>This extension will produce outputs of cohort statistics</Description>
     <PackageReleaseNotes>LANDIS-II v8 update.</PackageReleaseNotes>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 
